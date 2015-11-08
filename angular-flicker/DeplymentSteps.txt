@@ -1,0 +1,4 @@
+Steps to execute:
+
+1. Add the files in my project to a web server like xampp.
+2. Set mainpage as start page and run the project.

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html ng-app="myAngularApp">
+<head>
+    <title> Share-N-Care </title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="cssfile.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body ng-controller="mainController">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="titlepic.jpg" alt="title" style="height:50px" />
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+                <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main">
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-12">
+        </div>
+    </div>
+
+    <footer>
+        <div class="form-group" style="background: #1e721e;height: 80px;">
+            <div class="col-sm-4" style="float: left;"><img src="HU_logo.png" alt="college_logo" /> </div>
+            <div class="col-sm-6" style="color: white;text-align: center;padding-top:1%;"> <p>By <br />Rambabu Pamarthi</p>  </div>
+        </div>
+    </footer>
+    <!--<div class="container">
+
+        <div id="callout">
+        </div>
+
+        <div id="firstpic">
+        <img src="titlepic.jpg" alt= "title"/>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li class="housepage"> <a href="mainpage.html">Home </a> </li>
+                <li> <a href="#" onClick="myFunction()">#Room Share </a> </li>
+                <li> <a href="#" onClick="myFunction()">#Ride Share</a> </li>
+                <li> <a href="#" onClick="myFunction()">#Resale </a> </li>
+                <li> <a href="#" onClick="myFunction()">#eBooks </a> </li>
+                <li> <a href="#" onClick="myFunction()">#Donate </a> </li>
+                <li> <a href="contactus.html">Contact us </a> </li>
+            </ul>
+        </div>
+
+        <div id="secondpic">
+            <img src="share.jpg" width="1020px" alt="share picture"/>
+        </div>
+
+        <div id="thequote">
+            <img  src="share2.jpg" alt="share quote"/>
+        </div>
+
+
+        <div id= "leftside"> <p style= "text-indent: 50px;">Share-N-Care is an e-portal for the students of Harrisburg University of Science and Technology, which provides a platform for exchange of information on sharing the students' needs. This facilitates the students to share their needs, exchange the information. This online media will help the students in posting their requirements or information which will be accessible by all the students and those who are interested in that information can respond to it.</p>
+        </div>
+
+        <div id="rightside">
+        <img src="mergedpic.jpg" alt= "concised all share pics"/>
+        </div>
+        <br/>
+
+        <div id="futer">
+             <div id="lastlogo"><img src="HU_logo.png" alt= "college_logo"/> </div>
+             <div id="lastnam"> <p>By <br/>Rambabu Pamarthi</p> </div>
+        </div>
+
+    </div>-->
+
+</body>
+
+</html>
